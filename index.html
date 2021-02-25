@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width-device-width,initial-scale-1"/>
+        <title>Feedback Form</title>
+    </head>
+<body style="background-color:rgba(0,0,0,0.5);margin:50px 80px 50px 80px;">
+    <div id="back">
+      <br>
+      <h1 id="title">JADE MOUNTAIN HOTEL</h1>
+      <p id="description"><em>Enjoy the Lap of Nature</em></p><br><hr>
+      <h3><u><p id="description">FEEDBACK FORM</p></u></h3>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name:<br>
+        <input  id="name" type="Text" style="width:50%;" placeholder="Enter Your Name" required></input></label><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input id="email" type="email" style="width:50%;" placeholder="Enter Your Email" required></input><br>
+        <label for="number" id="number-label">Age:</label><br>
+        <input id="number" type="number" style="width:50%;" min=10 max=100 placeholder="Enter your Age" required></input><br>
+        <p style="font-weight:bolder;font-size:24px;">How was your Experience with our Service:</p>
+        <select id="dropdown" style="font-weight:bolder;font-size:24px;width:50%" required>
+        <option value=""></option>
+        <option value="Worst">Worst</option>
+        <option value="Worse">Worse</option>
+        <option value="Bad">Bad</option>
+        <option value="Good">Good</option>
+        <option value="Better">Better</option>
+        <option value="Best">Best</option>
+        </select><br>
+        <p style="font-weight:bolder;font-size:24px;">Do you Recommend us to your Friends:</p>
+        <label for="radio" id="radiobutton">
+          <input type="radio" value="Definitely" name="join" id="radio">Definitely</input><br>
+          <input type="radio" value="May Be" name="join" id="radio">May Be</input><br>
+          <input type="radio" value="Not Sure" name="join" id="radio">Not Sure</input><br>
+        </label>
+        <p style="font-weight:bolder;font-size:24px;">Hotel Quality Assurance(check all that you apply)</p>
+        <label for="Checkbox" id="radiobutton">
+        <input type="Checkbox" value="1" id="Checkbox">Bell/Door Arrival</input><br>
+        <input type="Checkbox" value="2" id="Checkbox">Front Office Check-In</input><br>
+        <input type="Checkbox" value="3" id="Checkbox">Bell/Door Acclimation</input><br>
+        <input type="Checkbox" value="4" id="Checkbox">Concierge Inquiry</input><br>
+        <input type="Checkbox" value="5" id="Checkbox">HouseKeeping Arrival</input><br>
+        <input type="Checkbox" value="6" id="Checkbox">HouseKeeping StayOver</input><br>
+        <input type="Checkbox" value="7" id="Checkbox">HouseKeeping TurnDown</input><br>
+        <input type="Checkbox" value="8" id="Checkbox">In-Room Dining</input><br>
+        </label>
+        <p style="font-weight:bolder;font-size:24px;">Any Comments or Suggessions?</p>
+        <textarea style="width:50%;height:auto;padding:10px 10px 30px 10px;font-weight:light;
+  font-size:18px;" placeholder="Any Comments or Suggessions..." ></textarea><br><br>
+        <button id="submit" type="Submit">SUBMIT</button><br><br>
+      </form></div>
+  </body>
+</html>
